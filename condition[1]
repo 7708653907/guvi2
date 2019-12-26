@@ -1,0 +1,123 @@
+*maximum between two numbers:
+
+a=(int(input("Enter first number:"))
+b=(int(input("Enter second number:"))
+ 
+if(a>b):
+ print(a,"a is greater than b:")
+elif(a==b):
+ print(b,"a is equal to b:")
+else:
+print(b,"greater")
+
+*maximum between three numbers:
+
+
+a=(int(input("Enter first number:"))
+b=(int(input("Enter second number:"))
+c=(int(input("Enter third number:"))
+
+if(a>b):
+  print(a,"a is greater")
+elif(a==b):
+  print(b,"b is greater")
+else:
+  print(c,"c is greater")
+
+
+*wheater a number is negative,positive or zero
+
+
+a=(int(input("Enter zero number:"))
+b=(int(input("Enter negative number:"))                               c=(int(input("Enter positive number:"))
+
+if (num==0):
+  print(a," is zero")
+elif("-"):
+  print(b,"is negative")
+else:
+  print(c,"is positive")
+
+*wheater a number is even or odd
+a=(int(input("Enter the number:"))
+
+if (a%0==2):
+  print(a," odd number")
+else:
+   print(a,"even number")
+
+*input any alphabet and check wheater it is vowel or constant
+
+
+a=int(input("Enter the character:"))
+  
+if a in('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'):
+   print(a,"is vowel")
+  else:
+   print(a,"is constant")
+
+
+*to check wheather a character is alphabet or not
+
+ch=int(input("Enter the character:"))
+
+if ch in('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'):
+   print(ch,"is alphabet")
+  else:
+   print(ch,"is not alphabet")
+
+
+*number is divisible by 5 and 11 or not
+
+
+a=int(input("Enter divisble number"))
+
+if a in (a%==5) and (a%==11):
+  print(a,"5 and 11 is divisble")
+else
+  print(a,"5 and 11  not divisible")
+
+
+*leapyear or not
+ a=int(input("Enter the year"))
+
+ if (a%400==0):
+   print(a," is a leap year")
+ elif (a%100==0):
+   print(a,"is not leap year")
+ elif (a%4==0):
+    print(a,"is a leap year")
+ else:
+    print(a,"is not leap year:")
+
+*alphabet,digit,special
+
+alpha=('a','b','c','d','e','f','g')
+digit=('0.1','0.2','0.3','0.4','0.5','0.6')
+special=('+','-','*','%','&','@')
+inp=input("Enter the alphabet,digit,special):
+if input in alpha:
+   print(alpha,"is  alphabet")
+elif input in digit:
+  print(digit,"is  digit")
+elif input in special:
+  print(special,"is special")
+
+*alphabet or not
+
+alpha=(int(input("Enter the alphabet))
+  
+ if alpha in('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'):
+  print(alpha,"is alphabet)
+ else:
+  print(alpha,"not alphabet) 
+
+ 
+
+
+
+  
+
+
+
+
